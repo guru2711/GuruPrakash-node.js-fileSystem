@@ -10,7 +10,7 @@ async function load(){
 
         app.use("/", getRoutes)
 
-        // starting the server with port name
+        // starting the server 
 app.listen(1000,()=> console.log("server is running"))
     }catch(err){
         console.log("error starting server: ",err)
